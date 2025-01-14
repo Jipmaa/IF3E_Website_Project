@@ -1,0 +1,144 @@
+/* Style de la navigation */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+.login-signup {
+    font-size: 16px;
+}
+
+.login-signup a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.login-signup a:hover {
+    color: #ff6600;
+}
+
+/* Style pour la section logo */
+.logo {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    gap: 10px; /* Espace entre l'image et le texte */
+}
+
+.logo img {
+    height: 50px; /* Ajustez la hauteur pour correspondre au texte */
+    width: auto; /* Garde le ratio de l'image */
+    object-fit: contain; /* Évite la déformation de l'image */
+    border-radius: 10px ;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+/* Style des sections d'informations */
+main {
+    padding: 20px;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation : fadeIn 1s;
+}
+
+.info-section img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    animation: fadeIn 1s;
+}
+
+.info-text {
+    max-width: 500px;
+}
+
+.info-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* S'assurer que les liens n'ont pas de style par défaut */
+a {
+    text-decoration: none;  /* Retire le soulignement du lien */
+    color: inherit; /* Prend la couleur de son parent (ex. la couleur du texte de la div) */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

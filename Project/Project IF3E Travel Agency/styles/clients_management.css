@@ -1,0 +1,220 @@
+/* Style de base */
+/* Style de la navigation */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+.login-signup {
+    font-size: 16px;
+}
+
+.login-signup a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.login-signup a:hover {
+    color: #ff6600;
+}
+
+/* Style pour la section logo */
+.logo {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    gap: 10px; /* Espace entre l'image et le texte */
+}
+
+.logo img {
+    height: 50px; /* Ajustez la hauteur pour correspondre au texte */
+    width: auto; /* Garde le ratio de l'image */
+    object-fit: contain; /* Évite la déformation de l'image */
+    border-radius: 10px ;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+
+/* Table de gestion des clients */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Liens pour modifier et supprimer */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Boutons uniformisés */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bouton de recherche */
+.search-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+
+/* Bouton de réinitialisation */
+.reset-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+
+/* Formulaire de recherche */
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-form input,select {
+    padding: 10px;
+    width: 175px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.search-form input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.title-button-container {
+    display: flex;
+    align-items: center; /* Aligne verticalement le titre et le bouton */
+    justify-content: center; /* Positionne les éléments à gauche */
+    gap: 20px; /* Ajoute de l'espace entre le titre et le bouton */
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #0056b3;
+    text-align: center;
+}
+
+.toggle-button {
+    display: inline-block;
+    background-color: #8d8d8d;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #6d6d6d;
+}

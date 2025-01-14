@@ -1,0 +1,133 @@
+/* Style de la navigation */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+.login-signup {
+    font-size: 16px;
+}
+
+.login-signup a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.login-signup a:hover {
+    color: #ff6600;
+}
+
+/* Style pour la section logo */
+.logo {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    gap: 10px; /* Espace entre l'image et le texte */
+}
+
+.logo img {
+    height: 50px; /* Ajustez la hauteur pour correspondre au texte */
+    width: auto; /* Garde le ratio de l'image */
+    object-fit: contain; /* Évite la déformation de l'image */
+    border-radius: 10px ;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Style pour la section de réservation */
+#transport-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#transport-section h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#booking-form label {
+    font-weight: bold;
+}
+
+#booking-form input,
+#booking-form select,
+#booking-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#booking-form button {
+    padding: 10px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#booking-form button:hover {
+    background-color: #ff6600;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: white;
+    margin-top: 20px;
+}
